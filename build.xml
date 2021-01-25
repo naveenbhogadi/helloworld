@@ -66,7 +66,7 @@
 
 
   <target name="dist" depends="compile"
-          description="Create WAR file for binary distribution">
+          description="Create WAR file for binary distribution ">
     <jar jarfile="${dist.home}/${app.name}-${app.version}.war"
          basedir="${work.home}"/>
   </target>
